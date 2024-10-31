@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>DNA Clan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesOne.css">
+</head>
+<body>
+    <nav>
+        <div class="logo reveal">
+            <img class="dna-logo" src="./images/Picsart_24-10-29_23-01-50-120.png" alt="LOGO">
+        </div>
+        <label class="burger" for="burger">
+            <input type="checkbox" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="mobile-nav">
+                <div class="nav-links">
+                    <a id="homepageLink" href="#">Home</a>
+                    <a id="aboutpageLink" href="#">About Us</a>
+                    <button id="botonaaOne" class="btnOne mobBtn">Join Us</button>
+                </div>
+            </div>
+        </label>
+        <div id="nav-linok" class="nav-links reveal">
+            <a id="homepage" href="#">Home</a>
+            <a id="aboutpage" href="#">About Us</a>
+            <button id="botonaaOne" class="btnOne">Join Us</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content reveal-left">
+            <h1>Welcome to DNA</h1>
+            <p>Dominating Agario with unmatched strategy and teamwork. Join the most skilled clan.</p>
+            <button class="boton-elegante">Explore</button>
+        </div>
+        <div class="hero-image reveal-right">
+            <spline-viewer url="https://prod.spline.design/A5EeDIuezwvyFhjw/scene.splinecode"></spline-viewer>
+        </div>
+    </section>
+
+    <section class="requirements-section">
+        <h1 class="requirements-title reveal">Our Requirements</h1>
+        <div class="requirements-grid stagger-reveal">
+            <div class="requirement-card">
+                <p><span>Respectful Environment</span> – Treat every member with respect, regardless of their skill level.</p>
+            </div>
+            <div class="requirement-card">
+                <p><span>No Toxicity</span> – We maintain a zero-tolerance policy towards toxicity.</p>
+            </div>
+            <div class="requirement-card">
+                <p><span>Team Spirit</span> – Collaborate and support each other for the best experience.</p>
+            </div>
+            <div class="requirement-card">
+                <p><span>Open to All Levels</span> – Whether you're a pro or a beginner, everyone's welcome here.</p>
+            </div>
+            <div class="requirement-card">
+                <p><span>Active Participation</span> – Stay active in the community to make the most of it!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join-section">
+        <h2 class="join-title reveal">How to Join</h2>
+        <div class="join-steps stagger-reveal">
+            <div class="step-box">
+                <div style="flex: 0 0 80%; padding-right: 1rem;">
+                    Join our YouTube channel for tips and strategies to improve your game. 
+                    <a href="https://www.youtube.com/channel/UCnLsOCz4vW3UiC03Hl9JEiQ" class="join-link">Here</a>
+                </div>
+            </div>
+            <div class="step-box">
+                <div style="flex: 0 0 80%; padding-right: 1rem;">
+                    Follow us on Instagram to stay updated with clan news and events. 
+                    <a href="https://www.instagram.com/dna_clanuk/?hl=en" class="join-link">Here</a>
+                </div>
+            </div>
+        </div>
+        <button id="botonaaTwo" class="join-discord-btn reveal">Join Our Discord</button>
+    </section>
+
+    <footer class="reveal open">
+        <p>Developed by Amine Rahoui Aka Vlusch</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.35/build/spline-viewer.js"></script>
+
+ </body>
+</html>
